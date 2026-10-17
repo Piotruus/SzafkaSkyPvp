@@ -1,0 +1,75 @@
+settings:
+  currency-name: "Monety"
+  starting-coins: 0
+  pet-height: 1.85
+  pet-distance: 0.85
+  pet-follow-period-ticks: 2
+  effect-refresh-ticks: 40
+
+costumes:
+  koks:
+    name: "&6Kostium Koksa"
+    material: PLAYER_HEAD
+    custom-model-data: 0
+    price: 500
+    duration-days: 7
+    description: ["&7Uliczny wojownik.", "&eMożesz nosić normalną zbroję."]
+    effects: ["SPEED:0"]
+  demon:
+    name: "&cKostium Demona"
+    material: WITHER_SKELETON_SKULL
+    custom-model-data: 0
+    price: 1200
+    duration-days: 14
+    description: ["&7Czarno-czerwony wygląd."]
+    effects: []
+  mrozny:
+    name: "&bMroźny Wojownik"
+    material: DIAMOND_CHESTPLATE
+    custom-model-data: 0
+    price: 1500
+    duration-days: 30
+    description: ["&7Zimny styl SkyPvP."]
+    effects: []
+  enderman:
+    name: "&5Kostium Endermana"
+    material: ENDER_PEARL
+    custom-model-data: 0
+    price: 2000
+    duration-days: 30
+    description: ["&7Fioletowy efekt Endu."]
+    effects: []
+
+pets:
+  bee:
+    name: "&ePszczółka"
+    material: HONEYCOMB
+    custom-model-data: 0
+    price: 250
+    duration-days: 7
+    description: ["&7Mały towarzysz."]
+    effects: []
+  blaze:
+    name: "&6Mini Blaze"
+    material: BLAZE_POWDER
+    custom-model-data: 0
+    price: 700
+    duration-days: 14
+    description: ["&7Ognisty towarzysz."]
+    effects: ["FIRE_RESISTANCE:0"]
+  ender_dragon:
+    name: "&5Mini Smok Endu"
+    material: DRAGON_BREATH
+    custom-model-data: 0
+    price: 1800
+    duration-days: 30
+    description: ["&7Rzadki towarzysz."]
+    effects: []
+  magma:
+    name: "&cMini Magma Cube"
+    material: MAGMA_CREAM
+    custom-model-data: 0
+    price: 1000
+    duration-days: 14
+    description: ["&7Podskakujący towarzysz."]
+    effects: []

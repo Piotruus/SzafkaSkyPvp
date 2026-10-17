@@ -1,0 +1,22 @@
+name: SzafkaSkyPvP
+version: 1.0.0
+main: pl.szafka.cosmetics.SzafkaCosmetics
+api-version: '1.21'
+author: ServerOwner
+description: Czasowe kostiumy i pety z GUI /szafka
+commands:
+  szafka:
+    description: Otwiera szafkę kosmetyczną
+    usage: /szafka
+  kostiumy:
+    description: Otwiera menu kostiumów
+    usage: /kostiumy
+  pety:
+    description: Otwiera menu petów
+    usage: /pety
+  kosmetyki:
+    description: Zarządzanie kosmetykami
+    usage: /kosmetyki <give|extend|reload|coins|shop|crate>
+permissions:
+  szafka.admin:
+    default: op
